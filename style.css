@@ -1,0 +1,89 @@
+.carousel-item{
+    height: 580px;
+}
+.slider__img{
+    max-width: 450px;
+    margin-bottom: 30px;
+}
+.carousel-control-next-icon{
+    background-image: url(./img/arrow-right-solid.svg);
+} 
+.block_carousel{
+    background-color: #000;
+    max-width: 65%;
+    max-height: 700px;
+    margin: 90px auto;
+    display: block;
+}
+.carousel-control-prev-icon{
+    background-image: url(./img/arrow-left-solid.svg);
+}
+h5{
+    color: #fff;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+p{
+    color: rgb(110, 110, 110);
+    padding: 5px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.slider__img-1{
+    width: 400px;
+
+}
+
+.slider__img-2{
+    width: 400px;
+    margin-bottom: 20px;
+}
+.block-2{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .block_carousel{
+        display: none;
+    }
+    .block-2{
+        display: block;
+        margin: 0 auto;
+        background-color: #000;
+        max-width: 1200px;
+        padding: 20px;
+        text-align: center;
+        justify-content: space-between;
+    }
+    .card-image{
+    max-width: 400px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000;
+    }
+    .card-line {
+        border: 4px solid rgba(68, 67, 67, 0.47);
+        position: absolute;
+        width: 100%;
+        z-index: 4;
+        left: 0;
+    }
+    .card-title {
+        font-size: 35px;
+        color: #fff;
+        font-weight: 500;
+        margin: 45px 0;
+    }
+    .card-info {
+        font-size: 15px;
+        color: rgb(116, 116, 116);
+        font-weight: 500;
+    }
+    .card-image {
+        width: 500px;
+    }
+}
